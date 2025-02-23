@@ -12,27 +12,57 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BBMPVehicleTrackingAPP"
         tools:targetApi="31">
-        <activity
-            android:name=".UserLoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DriverLoginActivity"
-            android:exported="false" /> <!-- SplashActivity (Launcher Activity) -->
+
+        <!-- SplashActivity (Launcher Activity) -->
         <activity
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- RoleSelectionActivity -->
+        </activity>
+
+        <!-- RoleSelectionActivity -->
         <activity
             android:name=".RoleSelectionActivity"
-            android:exported="false" /> <!-- MainActivity (Remove MAIN and LAUNCHER intent filters if not needed) -->
+            android:exported="false" />
+
+        <!-- UserLoginActivity -->
+        <activity
+            android:name=".UserLoginActivity"
+            android:exported="false" />
+
+        <!-- DriverLoginActivity -->
+        <activity
+            android:name=".DriverLoginActivity"
+            android:exported="false" />
+
+        <!-- UserDashboardActivity -->
+        <activity
+            android:name=".UserDashboardActivity"
+            android:exported="false" />
+
+        <!-- DriverDashboardActivity -->
+        <activity
+            android:name=".DriverDashboardActivity"
+            android:exported="false" />
+
+        <!-- SignUpActivity -->
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+
+        <!-- SettingsActivity -->
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+
+        <!-- MainActivity (Remove MAIN and LAUNCHER intent filters if not needed) -->
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+
     </application>
 
 </manifest>

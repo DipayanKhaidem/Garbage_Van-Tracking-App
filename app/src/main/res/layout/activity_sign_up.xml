@@ -24,23 +24,13 @@
         android:inputType="textPassword"
         android:layout_marginBottom="16dp"/>
 
-    <!-- Login Button -->
-    <Button
-        android:id="@+id/btn_login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:backgroundTint="@color/purple_500"
-        android:textColor="@android:color/white"
-        android:layout_marginBottom="16dp"/>
-
     <!-- Sign-Up Button -->
     <Button
         android:id="@+id/btn_sign_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up"
-        android:backgroundTint="@color/teal_200"
+        android:backgroundTint="@color/purple_500"
         android:textColor="@android:color/white"/>
 
 </LinearLayout>
